@@ -1,0 +1,57 @@
+/* Nexus AI — Elegant Gradient Theme */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 10px rgba(0, 188, 212, 0.5);
+}
+
+p {
+  font-size: 1.2rem;
+  opacity: 0.85;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+button {
+  background-color: #00bcd4;
+  border: none;
+  padding: 0.9rem 1.8rem;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 188, 212, 0.3);
+}
+
+button:hover {
+  background-color: #0097a7;
+  transform: translateY(-2px);
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.9rem;
+  opacity: 0.6;
+  letter-spacing: 0.5px;
+}
